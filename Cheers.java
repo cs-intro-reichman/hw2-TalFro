@@ -10,7 +10,7 @@ public class Cheers {
                 
             while (length>0) {
                 if (AN.indexOf(word.charAt(at))==-1) {
-                System.out.println("Give me a "+(word.charAt(at))+": "+(word.charAt(at))+"!");
+                System.out.println("Give me a  "+(word.charAt(at))+": "+(word.charAt(at))+"!");
                 }
 
                 else{
@@ -21,7 +21,7 @@ public class Cheers {
             }
 
                  System.out.println("What does that spell?");
-                 
+
                  while (num>0) {
                    System.out.println(word+"!!!");
                    num = num-1;
